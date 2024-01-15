@@ -1,0 +1,18 @@
+@media screen and (max-width:600px){
+    /* navbar style start */
+    .nav-logo-image{
+        width: 3rem;
+        margin-right: 0.5rem;
+    }
+    .text-orange{
+        font-size: 1.25rem;
+    }
+    .nav-menu-container > ul > li > a{
+        margin: 0;
+    }
+    .nav-menu-container > ul{
+        display: none;
+    }
+    /* navbar style stop */
+    
+}

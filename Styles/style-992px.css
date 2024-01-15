@@ -1,0 +1,12 @@
+@media screen and (min-width:601px) and (max-width:991px) {
+    /* navbar style start */
+    
+    .nav-menu-container > ul > li > a{
+        margin: 1rem;
+    }
+    #nav-icon{
+        display: none;
+    }
+    /* navbar style stop */
+    
+}

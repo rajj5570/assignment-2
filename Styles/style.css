@@ -1,0 +1,83 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* shared common styles start */
+.section-width{
+    width: 85%;
+}
+.center{
+    text-align: center;
+}
+.text-white{
+    color: #fff;
+}
+.color-orange{
+    color: #FF5400;
+}
+.bgcolor-orange{
+    border-radius: 8px;
+background: #FF5400;
+}
+/* shared common styles stop */
+
+/* navbar section styles start */
+.nav-section{
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo-container{
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+.nav-logo-image{
+    width: 5rem;
+    margin-right: 1rem;
+}
+.nav-logo-text{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.nav-logo-text > .text-orange{
+    color: #FF5400;
+font-size: 2.25rem;
+font-weight: 800;
+}
+
+.nav-menu-container{
+    display: flex;
+margin-right: 0;
+    align-items: center;
+}
+.nav-menu-container > ul {
+display: flex;
+
+    
+}
+.nav-menu-container > ul > li{
+    list-style: none;
+}
+.nav-menu-container > ul > li > a{
+    text-decoration: none;
+    margin: 0 1.5rem;
+    color: #424247;
+font-size: 18px;
+font-weight: 400;
+    
+}
+.nav-menu-container > ul > li > a:hover{
+    color: #FF5400;
+}
+#active{
+    color: #FF5400;
+}
+.nav-icon{
+    width: 1rem;
+}
+/* navbar section styles stop */
