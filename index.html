@@ -26,7 +26,7 @@
                     <li> <a href="#">Packages</a> </li>
                     <li> <a href="#">Testimonial</a> </li>
                     <li> <a href="#">Blog</a> </li>
-                    <li> <a href="#">Contact</a> </li>
+                    <li> <a href="#" id="last">Contact</a> </li>
                 </ul>
                 <i class="fa-solid fa-bars fa-xl" id="nav-icon"></i>
             </div>
@@ -35,8 +35,23 @@
 
         <!-- banner section start -->
         <section class="banner-section section-width">
-            <h3 class="banner-title text-white">Explore Your Travel</h3>
-            <p class="banner-description">Embark on unforgettable journeys with our travel expertise - where every destination becomes a story and every moment becomes a cherished adventure</p>
+            <div class="banner-container">
+                <h3 class="banner-title text-white">Explore Your Travel</h3>
+            <p class="banner-description text-white">Embark on unforgettable journeys with our travel expertise - where every destination becomes a story and every moment becomes a cherished adventure</p>
+            <div class="option-container">
+                <input type="text" class="where-go" placeholder="Where go">
+
+                <select name="when-go" id="" class="when-go" >
+                    <option value="">When  &nbsp;</option>
+                </select>
+
+                <select name="" class="select-type" id="">
+                    <option value="">Select Type</option>
+                </select>
+
+                <button class="bgcolor-orange search-button text-white"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+            </div>
+            </div>
         </section>
         <!-- banner section stop -->
     </header>
