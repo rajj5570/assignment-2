@@ -53,4 +53,42 @@
         font-size: 1.1rem;
     }
     /* popular tour section styles stop */
+
+    /* choose destination section style start */
+    .container-1{
+        height: 13.6rem;
+    }
+    .container-2{
+        height: 11rem;
+    }
+    .indonesia{
+        width: 48%;
+        height: 13.5rem;
+        background: url('../Images/Rectangle\ 8.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    .sri-lanka{
+        width: 30%;
+        height: 12.5rem;
+        background: url('../Images/Rectangle\ 6.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .north-america{
+        width: 37%;
+        height: 12.5rem;
+        background: url('../Images/Rectangle\ 7.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .kashmir{
+        width: 21%;
+        height: 12.5rem;
+        background: url('../Images/Rectangle\ 9.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    /* choose destination section style stop */
 }
