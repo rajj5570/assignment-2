@@ -1,5 +1,12 @@
 @media screen and (min-width:601px) and (max-width:991px) {
     /* navbar style start */
+    .nav-logo-image{
+        width: 4rem;
+        margin-right: 0.5rem;
+    }
+    .nav-logo-text, .text-orange{
+        font-size: 2rem;
+    }
     
     .nav-menu-container > ul > li > a{
         margin: 1rem;
@@ -8,5 +15,42 @@
         display: none;
     }
     /* navbar style stop */
+
     
+    /* banner style start */
+    .option-container{
+        width: 90%;
+        justify-content: center;
+    }
+    .where-go, .when-go, .select-type{
+        margin:0 1rem 0 0;
+    }
+    /* banner style stop */
+
+    /* popular tour section styles start */
+    .tour-text-container{
+        row-gap: 0.75rem;
+    }
+    .tour-title{
+        font-size: 1.5rem;
+    }
+    .same-text{
+        font-size: 0.8rem;
+    }
+    .tour-image{
+        width: 48%;
+        height: 100%;
+    }
+    .list{
+        margin-left: 1rem;
+    }
+    .list >ul > li{
+        margin: 0.5rem auto;
+    }
+    .read-more-button{
+        width: 7rem;
+        height: 2rem;
+        font-size: 1.1rem;
+    }
+    /* popular tour section styles stop */
 }

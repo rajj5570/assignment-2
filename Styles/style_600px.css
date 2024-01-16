@@ -14,5 +14,44 @@
         display: none;
     }
     /* navbar style stop */
+
+    /* banner style start */
+    .banner-container{
+        row-gap: 1.5rem;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-description{
+        width: 21rem;
+        text-align: center;
+    }
+    .option-container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    .where-go, .when-go, .select-type{
+        margin-left :1.3rem;
+        width: 90%;
+    }
+    .search-button{
+        width: 90%;
+    }
+    /* banner style stop */
+
+    /* popular tour section styles start */
+    .popular-tour-section{
+        flex-direction: column;
+    }
+    .tour-text-container{
+        width: 100%;
+        margin: 1.5rem 0;
+    }
+    /* popular tour section styles stop */
     
 }

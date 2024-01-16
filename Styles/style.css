@@ -99,6 +99,7 @@ font-weight: 400;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    row-gap: 3rem;
 }
 .banner-title{
 font-size: 4rem;
@@ -106,6 +107,7 @@ font-weight: 800;
 
 }
 .banner-description{
+    text-align: center;
     width: 42rem;
 font-size: 1rem;
 font-weight: 400;
@@ -119,15 +121,17 @@ border-radius: 0.5rem;
 border: none;
 background: #fff;
 margin-right: 1.5rem;
+color: rgba(19, 19, 24, 0.50);
 }
 .option-container{
-   
+   display: flex;
     padding: 1rem;
     border-radius: 0.5rem;
 background: rgba(255, 255, 255, 0.30);
 }
 .option-container > input[placeholder], .when-go, .select-type{
 padding-left: 1rem;
+color: rgba(19, 19, 24, 0.50);
 }
 .search-button{
     width: 10.5rem;
@@ -137,4 +141,51 @@ border-radius: 0.5rem;
 border: none;
 }
 /* banner section styles stop */
+
+/* popular tour section style start */
+.popular-tour-section{
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.tour-text-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+    width: 50%;
+    
+}
+.tour-title{
+    color: #131318;
+margin-left: 0;
+font-size: 2.5rem;
+font-weight: 800;
+}
+.same-text{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+}
+.read-more-button{
+    width: 11rem;
+height: 3.1rem;
+flex-shrink: 0;
+border-radius: 0.5rem;
+border: none;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 800;
+margin-left: 0;
+}
+.list{
+    margin-left: 2rem;
+}
+.list >ul > li{
+    margin: 1rem auto;
+}
+
+
+/* popular tour section style stop */
 
