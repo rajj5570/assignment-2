@@ -13,6 +13,9 @@
     .nav-menu-container > ul{
         display: none;
     }
+    #nav-icon{
+        display: grid;
+    }
     /* navbar style stop */
 
     /* banner style start */
@@ -76,6 +79,9 @@
         width: 100%;
         margin: 0 0 1rem 5rem;
     }
+    .kashmir{
+        width: 62%;
+    }
     .title-3 {
         margin-right: 15%;
         margin-top: 30%;
@@ -103,5 +109,41 @@
         width: 100%;
     }
     /* why choose section stop */
+
+    /* discount section style start */
+    .offer-container-1, .offer-container-3{
+        width: 75%;
+    height: 60%;
+    top:  13.625rem;
+    left:  1.625rem;
+    }
+    .offer-container-2{
+        width: 75%;
+    height: 60%;
+    top:  13.625rem;
+    right:  1.375rem;
+    }
+    .deal-1, .deal-2, .deal-3{
+        border-radius: 0.5rem;
+    }
+    .deal-list{
+        margin-top: 1rem;
+    }
+    .deal-title{
+        padding-top: 1.5rem;
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    .deal-description{
+        font-size: 0.8rem;
+        margin-right: 2rem;
+    }
+    .booking-button{
+        margin-top: 0.5rem;
+    }
+    .see-all-package-button{
+        margin: auto 31.5%;
+    }
+    /* discount section style stop */
     
 }

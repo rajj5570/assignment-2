@@ -259,14 +259,14 @@ font-weight: 400;
     background-size: contain;
 }
 .north-america{
-    width: 34.5rem;
+    width: 37%;
     height: 20.5rem;
     background: url('../Images/Rectangle\ 7.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .kashmir{
-    width: 20rem;
+    width: 21%;
     height: 20.5rem;
     background: url('../Images/Rectangle\ 9.png');
     background-repeat: no-repeat;
@@ -349,5 +349,116 @@ font-weight: 400;
 /* why choose section section style stop */
 
 /* discount section style start */
-
+.discount-title{
+    margin: 6rem auto 2rem auto;
+    color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+}
+.discount-description{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+margin-bottom: 3rem;
+}
+.deal-1, .deal-2, .deal-3{
+    width: 100%;
+    height: 38rem;
+    margin-bottom: 1.5rem;
+}
+.deal-1{
+    background: url('../Images/Group\ 39.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.deal-2{
+    background: url('../Images/Group\ 40.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.deal-3{
+    background: url('../Images/maldives.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+.offer-container-1, .offer-container-3{
+    position: relative;
+    top: 4rem;
+    margin-right: 5.5rem;
+    width: 60%;
+    height: 80%;
+    border-radius: 1rem;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+}
+.offer-container-2{
+    position: relative;
+    top: 4rem;
+    margin-left: 5.5rem;
+    width: 60%;
+    height: 80%;
+    border-radius: 1rem;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+}
+.deal-list >ul {
+    display: flex;
+}
+.deal-list > ul > li{
+    list-style: none;
+}
+.deal-title{
+    color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+}
+.deal-description{
+    color: #5A5A5D;
+font-size: 1rem;
+font-weight: 400;
+}
+.price{
+    color: #FF5400;
+font-size: 1.25rem;
+font-weight: 800;
+}
+.booking-button{
+    border: none;
+    border-radius: 0.5rem;
+    width: 9rem;
+    height: 3.5rem;
+    color: #FFF;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 800;
+}
+.deal-list{
+    margin-top: 4rem;
+}
+.deal-title{
+    padding: 3rem 0 1rem 3rem;
+}
+.deal-description{
+    padding: 0 0 1rem 3rem;
+}
+.price{
+    padding: 0 0 1rem 3rem;
+}
+.booking-button{
+    margin: 2rem 0 0 3rem;
+}
+.see-all-package-button{
+    margin: 2% 41.5%;
+    border: none;
+    border-radius: 0.5rem;
+    width: 12rem;
+    height: 3.5rem;
+    color: #FFF;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 800;
+}
 /* discount section style stop */

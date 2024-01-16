@@ -100,4 +100,19 @@
         margin-top: 0;
     }
     /* why choose section section stop */
+
+    /* discount section style start */
+    .offer-container-1, .offer-container-3{
+        margin-right: 3rem;
+    }
+    .offer-container-2{
+        margin-left: 3rem;
+    }
+    .deal-description{
+        margin-right: 3rem;
+    }
+    .see-all-package-button{
+        margin: auto 38.5%;
+    }
+    /* discount section style stop */
 }
