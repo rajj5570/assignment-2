@@ -115,4 +115,13 @@
         margin: auto 38.5%;
     }
     /* discount section style stop */
+
+    /* tour categories section style start */
+    .tour-image-container-2{
+        margin-top: 3rem;
+    }
+    .tour-image{
+        width: 100%;
+    }
+    /* tour categories section style stop */
 }

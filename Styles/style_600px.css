@@ -145,5 +145,25 @@
         margin: auto 31.5%;
     }
     /* discount section style stop */
+
+    /* tour categories section style start */
+    .tour-categories-section{
+        margin: 3rem auto;
+    }
+    .tour-categories-title{
+        color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    }
+    .tour-image-container-1, .tour-image-container-2{
+       flex-direction: column;
+        
+    }
+    .tour-image{
+        border-radius: 0.5rem;
+        width: 100%;
+    }
+    
+    /* tour categories section style stop */
     
 }
