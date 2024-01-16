@@ -214,4 +214,7 @@ font-size: 0.8rem;
         left: 17.625rem;
     }
     /* newsletter section style stop */
+    .footer-logo-container{
+        margin-left: 32%;
+    }
 }
