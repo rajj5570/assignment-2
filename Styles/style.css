@@ -493,4 +493,49 @@ font-weight: 800;
 }
 /* tour categories style stop */
 
-/* perfect place section style sta */
+/* perfect place section style start */
+.perfect-place-container{
+    display: flex;
+    margin: 3rem auto;
+
+}
+.inner-container{
+    width: 48%;
+
+}
+.perfect-heading{
+    width: 48%;
+    border-radius: 16px;
+background: url('../Images/Group\ 40089.png');
+background-size: cover;
+background-repeat: no-repeat;
+}
+.perfect-title{
+    color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+}
+.perfect-description{
+    color: #5A5A5D;
+font-size: 1rem;
+font-weight: 400;
+margin: 1rem auto;
+}
+.perfect-list {
+    margin: 1rem 1rem 1rem 1.5rem;
+}
+.perfect-button{
+    border: none;
+    border-radius: 0.5rem;
+    width: 9rem;
+    height: 3.5rem;
+    color: #FFF;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 800;
+
+}
+.perfect-heading{
+    padding-top: 12rem;
+}
+/* perfect place section style stop */

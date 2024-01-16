@@ -165,5 +165,27 @@
     }
     
     /* tour categories section style stop */
+
     
+    /* perfect place section style start */
+    .perfect-place-container{
+        flex-direction: column;
+    }
+    .inner-container, .perfect-heading{
+        width: 100%;
+    }
+.perfect-title{
+    font-size: 1.5rem;
+}
+.perfect-description, .perfect-list{
+font-size: 0.8rem;
+}
+    .perfect-button{
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .perfect-heading{
+        padding-bottom: 8.625rem;
+    }
+    /* perfect place section style stop */
 }
