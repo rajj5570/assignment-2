@@ -288,3 +288,66 @@ font-weight: 400;
 }
 
 /* choose destination section style stop */
+
+/* why choose section section style start */
+.why-choose-section{
+    margin-top: 6rem;
+}
+.why-choose-title{
+    color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+
+}
+.why-choose-description{
+    margin-top: 1.5rem;
+    width: 40rem;
+    color: rgba(19, 19, 24, 0.70);;
+font-size: 1rem;
+font-weight: 400;
+}
+.why-choose-container{
+    
+}
+.card-container{
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+.card-1, .card-2, .card-3{
+    height: 18rem;
+    padding: 2rem;
+}
+.card-1{
+    background: rgba(251, 181, 99, 0.05);
+    border-radius: 1rem;
+border: 1px solid rgba(251, 181, 99, 0.20);
+}
+.card-2{
+    border-radius: 1rem;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.card-3{
+    width: 54%;
+margin: 1rem auto;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+.card-title{
+    margin: 2rem auto 1rem auto;
+    color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+}
+.card-description{
+    color: #5A5A5D;
+font-size: 1rem;
+font-weight: 400;
+}
+/* why choose section section style stop */
+
+/* discount section style start */
+
+/* discount section style stop */

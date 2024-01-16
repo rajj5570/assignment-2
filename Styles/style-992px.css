@@ -91,4 +91,13 @@
         background-size: contain;
     }
     /* choose destination section style stop */
+
+    /* why choose section section start */
+    .destination, .destination-image-container{
+        margin-bottom: 0;
+    }
+    .why-choose-section{
+        margin-top: 0;
+    }
+    /* why choose section section stop */
 }
