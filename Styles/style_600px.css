@@ -188,4 +188,30 @@ font-size: 0.8rem;
         padding-bottom: 8.625rem;
     }
     /* perfect place section style stop */
+
+    /* newsletter section style start */
+    .news-letter-section{
+        flex-direction: column;
+    }
+    .news-letter-container{
+        width: 100%;
+    }
+    .news-letter-image{
+        width: 100%;
+    }
+    .horizontal-line{
+        display: grid;
+        margin: 1rem auto;
+    }
+    .subscriber-info{
+        width: 32rem;
+    }
+    .news-letter-button{
+        width: 100% ;
+    }
+    .save-button{
+        top: 17rem;
+        left: 17.625rem;
+    }
+    /* newsletter section style stop */
 }

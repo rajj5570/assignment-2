@@ -37,7 +37,7 @@
     .same-text{
         font-size: 0.8rem;
     }
-    .tour-image{
+    .tour-image-1{
         width: 48%;
         height: 100%;
     }
@@ -124,4 +124,27 @@
         width: 100%;
     }
     /* tour categories section style stop */
+
+    /* perfect place section style start */
+    .perfect-place-container{
+        margin: 8rem auto;
+    }
+    .perfect-description, .perfect-list{
+        margin-right: 1rem;
+    }
+    .perfect-heading{
+        padding-top: 13rem;
+    }
+    /* perfect place section style stop */
+
+    /* newsletter section style start */
+    .save-button{
+        top: 17.1875rem;
+        left: 16.75rem;
+
+    }
+    .subscriber-info , .news-letter-button{
+        width: 100%;
+    }
+    /* newsletter section style stop */
 }
