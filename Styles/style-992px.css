@@ -55,6 +55,9 @@
     /* popular tour section styles stop */
 
     /* choose destination section style start */
+    .container-1, .container-2, .container-3{
+        margin-bottom: 1rem;
+    }
     .container-1{
         height: 13.6rem;
     }
@@ -93,6 +96,9 @@
     /* choose destination section style stop */
 
     /* why choose section section start */
+    .card-1{
+        padding-right: 0;
+    }
     .destination, .destination-image-container{
         margin-bottom: 0;
     }
@@ -140,6 +146,10 @@
     }
     .perfect-heading{
         padding-top: 13rem;
+    }
+    .perfect-button{
+        width: 8rem;
+        height: 3rem;
     }
     /* perfect place section style stop */
 

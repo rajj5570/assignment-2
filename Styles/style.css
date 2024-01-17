@@ -373,11 +373,13 @@
   background: url("../Images/Group\ 39.png");
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 1rem;
 }
 .deal-2 {
   background: url("../Images/Group\ 40.png");
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 1rem;
 }
 .deal-3 {
   background: url("../Images/maldives.png");
@@ -574,6 +576,8 @@
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 2rem;
+  width: 77%;
+  margin-left: 0;
 }
 .horizontal-line {
   border-bottom: 1px solid rgba(19, 19, 24, 0.1);
